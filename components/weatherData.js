@@ -67,7 +67,6 @@ export function weatherData(element, city) {
 
       forecast.appendChild(forecastItem);
 
-      console.log(forecastItem);
     });
   };
 
