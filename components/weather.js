@@ -19,7 +19,7 @@ export async function getLocation(location) {
 export async function getWeather(location = 'auto:ip', days = numDays) {
   try {
     const response = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=${days}`,
+      `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=${days}`,
       { mode: 'cors' }
     );
 
