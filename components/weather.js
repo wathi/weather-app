@@ -5,7 +5,7 @@ const numDays = 3;
 export async function getLocation(location) {
   try {
     const response = await fetch(
-      `http://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${location}`,
+      `https://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${location}`,
       { mode: 'cors' }
     );
 
