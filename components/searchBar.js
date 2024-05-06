@@ -10,7 +10,6 @@ const updateValue = async (e) => {
   const list = document.querySelector('#list');
 
   const result = await getLocation(e.target.value);
-  console.log(result);
 
   list.innerHTML = '';
 
